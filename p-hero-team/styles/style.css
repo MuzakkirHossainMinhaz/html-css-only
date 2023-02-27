@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #121212;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Banner Section Style */
+.banner {
+    display: flex;
+    height: 100vh;
+}
+.banner-left {
+    flex: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.banner-title {
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.banner-title::before {
+    content: 'Programming Hero';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd;
+    animation: typing 3s linear infinite;
+}
+.banner-text {
+    line-height: 1.5;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+.btn {
+    outline: 0;
+    padding: 10px 30px;
+    background-color: #22bedd;
+    color: white;
+    font-weight: 500;
+    border: 3px solid #22bedd;
+    cursor: pointer;
+    transition: .2s linear;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #22bedd;
+}
+.banner-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img {
+    border-radius: 7px;
+    overflow: hidden;
+    border: 4px solid #22bedd;
+}
+
+@keyframes typing {
+    0% {
+        content: '|';
+    }
+    4% {
+        content: 'Pr|';
+    }
+    8% {
+        content: 'Pro|';
+    }
+    12% {
+        content: 'Prog|';
+    }
+    16% {
+        content: 'Progr|';
+    }
+    20% {
+        content: 'Progra|';
+    }
+    24% {
+        content: 'Program|';
+    }
+    28% {
+        content: 'Programm|';
+    }
+    32% {
+        content: 'Programmi|';
+    }
+    36% {
+        content: 'Programmin|';
+    }
+    40% {
+        content: 'Programming|';
+    }
+    44% {
+        content: 'Programming |';
+    }
+    48% {
+        content: 'Programming H|';
+    }
+    52% {
+        content: 'Programming He|';
+    }
+    56% {
+        content: 'Programming Her|';
+    }
+    60% {
+        content: 'Programming Hero|';
+    }
+    64%,
+    83% {
+        content: 'Programming Hero|';
+    }
+    84% {
+        content: 'Programming Her|';
+    }
+    85% {
+        content: 'Programming He|';
+    }
+    86% {
+        content: 'Programming H|';
+    }
+    87% {
+        content: 'Programming |';
+    }
+    88% {
+        content: 'Programming|';
+    }
+    89% {
+        content: 'Programmin|';
+    }
+    90% {
+        content: 'Programmi|';
+    }
+    91% {
+        content: 'Programm|';
+    }
+    92% {
+        content: 'Program|';
+    }
+    93% {
+        content: 'Progra|';
+    }
+    94% {
+        content: 'Progr|';
+    }
+    95% {
+        content: 'Prog|';
+    }
+    96% {
+        content: 'Pro|';
+    }
+    97% {
+        content: 'Pr|';
+    }
+    98% {
+        content: 'P|';
+    }
+    99% {
+        content: '|';
+    }
+    100% {
+        content: '|';
+    }
+}
+
+/* Gallery Section Style */
+.section-title {
+    color: #22bedd;
+    font-size: 35px;
+    margin: 50px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.photo {
+    height: 350px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(61, 60, 60),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.border {
+    background-color: white;
+    position: absolute;
+    transition: .7s ease-in-out;
+}
+.border.left, .border.right {
+    height: 340px;
+    width: 4px;
+}
+.border.top, .border.bottom {
+    height: 4px;
+    width: 270px;
+}
+.border.top {
+    top: 5px;
+    right: 100%;
+}
+.border.bottom {
+    bottom: 5px;
+    left: 100%;
+}
+.border.left {
+    left: 5px;
+    top: 100%;
+}
+.border.right {
+    bottom: 100%;
+    right: 5px;
+}
+.photo:hover .border.top {
+    right: 5px;
+}
+.photo:hover .border.bottom {
+    left: 5px;
+}
+.photo:hover .border.left {
+    top: 5px;
+}
+.photo:hover .border.right {
+    bottom: 5px;
+}
+.photo-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 25px;
+    left: 0;
+    color: white;
+    padding: 30px;
+    transform: translateY(450px);
+    transition: .5s ease-in-out;
+}
+.photo:hover .photo-content {
+    transform: translateY(330px);
+}
+.photo::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s linear;
+}
+.photo:hover::before {
+    opacity: 1;
+}
+
+/* footer section style */
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
