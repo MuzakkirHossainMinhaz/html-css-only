@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    color: red;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    color: green;
+    font-size: 2.7rem;
+}
+.left h1{
+    margin-bottom: 1.5rem;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 2.3rem;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.left{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    padding: 12px 40px;
+    background-image: linear-gradient(45deg, green, red);
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.right{
+    width: 25%;
+}
+.right img{
+    width: 85%;
+}
+.divisions-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.division-title{
+    text-align: center;
+}
+.division{
+    width: 21%;
+    height: 615px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 15px;
+}
+.division img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+hr{
+    color: gray;
+}
+.footer p{
+    color: grey;
+    text-align: center;
+}
