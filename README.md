@@ -13,8 +13,8 @@ Each project is contained in its own folder and includes all necessary files and
 ## How to Use
 To use this repository, simply clone or download the files and open them in your preferred text editor or web development environment. Each project is contained in its own folder, so you can easily navigate to the project you are interested in.
 
-## Contributing
-Contributions to this repository are welcome! If you have a beginner-level HTML and CSS project that you would like to add, simply fork the repository, create a new branch, add your project, and submit a pull request.
+<!-- ## Contributing
+Contributions to this repository are welcome! If you have a beginner-level HTML and CSS project that you would like to add, simply fork the repository, create a new branch, add your project, and submit a pull request.  -->
 
 ## License
 This repository is licensed under the MIT License. See the [LICENSE.md](https://github.com/MuzakkirHossainMinhaz/html-css-only/blob/main/LICENSE.md) file for more information.
