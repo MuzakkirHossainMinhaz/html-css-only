@@ -5,8 +5,9 @@ This repository contains all of my beginner-level HTML and CSS projects that wer
 The following projects are included in this repository:
 
 Project 1: [About Bangladesh](https://about-bangladesh.netlify.app/)<br>
-Project 2: [Developer Portfolio](https://developer-portfolio-v1.netlify.app/)<br>
-Project 3: [Programming Hero Team](https://phero-team.netlify.app/)<br>
+Project 2: [Developer Portfolio v1.0](https://developer-portfolio-v1.netlify.app/)<br>
+Project 3: [Developer Portfolio v2.0](https://developer-portfolio-v20.netlify.app/)<br>
+Project 4: [Programming Hero Team](https://phero-team.netlify.app/)<br>
 
 Each project is contained in its own folder and includes all necessary files and assets. The projects are designed to be easy to follow along with and can be used as a learning resource for those new to web development.
 
